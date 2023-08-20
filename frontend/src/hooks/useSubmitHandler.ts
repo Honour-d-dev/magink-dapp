@@ -1,16 +1,13 @@
-import { Values } from "../types";
-import { FormikHelpers } from "formik";
+import { Values } from '../types';
+import { FormikHelpers } from 'formik';
 
-import { useMaginkContract } from "./useMaginkContract";
+import { useMaginkContract } from './useMaginkContract';
 
 export const useSubmitHandler = () => {
   const { claim } = useMaginkContract();
-  
-  return async (
-    values: Values,
-    { setSubmitting }: FormikHelpers<Values>
-  ) => {
-    console.log("send claim Tx")
+
+  return async (_values: Values, { setSubmitting }: FormikHelpers<Values>) => {
+    console.log('send claim Tx');
 
     const claimArgs = undefined;
     const options = undefined;
