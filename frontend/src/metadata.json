@@ -1,6 +1,6 @@
 {
   "source": {
-    "hash": "0xf1a3f8eab7d5cfe1935678078c143af78faeef4a6c7d3ef43bedb69f3aac365e",
+    "hash": "0x4807a72d571ed17abaa2a7a7261f5754dcf929c13a03605024e30481b08fa663",
     "language": "ink! 4.2.1",
     "compiler": "rustc 1.69.0-nightly",
     "build_info": {
@@ -16,7 +16,7 @@
   "contract": {
     "name": "magink",
     "version": "0.1.0",
-    "authors": ["Mar.io"]
+    "authors": ["Honour"]
   },
   "spec": {
     "constructors": [

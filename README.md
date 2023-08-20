@@ -29,7 +29,7 @@ To better understand this dApp please play the [Swanky Magink! School](https://h
 The Magink! contract is deployed on Shibuya testnet at the following address:
 
 ```
-YRqLJo4EnGmJqa2chSnr4C1NGnNor15rAUYVSm4KLyAUUbp
+YUs21Y2AuFyquQ1aBzMpZ2kybdfF7bUUd9y9sVdmwaxLz2Q
 ```
 
 Its metadata can be [found here](./frontend/src/metadata.json).

@@ -47,9 +47,15 @@ export const MaginkForm = ({ awake, isAwake, remainingBlocks, runtimeError, badg
             <InkFacts badges={badges} />
             <br />
             {badges >= 9 ? (
-              <Button type="button" onClick={() => mint?.signAndSend([])} disabled={shouldDisableStrict(mint!)}>
-                {shouldDisableStrict(mint!) ? 'Minting...' : 'Mint Wizard'}
-              </Button>
+              badges > 9 ? (
+                <a href="https://github.com/swankyhub/magink-dapp" target="_blank" className="m-auto">
+                  magink! repo
+                </a>
+              ) : (
+                <Button type="button" onClick={() => mint?.signAndSend([])} disabled={shouldDisableStrict(mint!)}>
+                  {shouldDisableStrict(mint!) ? 'Minting...' : 'Mint Wizard'}
+                </Button>
+              )
             ) : (
               <Button type="submit" disabled={isSubmitting || !isValid || (remainingBlocks != 0 && !isFirtsClaim)}>
                 Claim badge

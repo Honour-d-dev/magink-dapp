@@ -2,7 +2,7 @@ import { Values } from '../types';
 
 export const initialValues: Values = { blocksToLive: 2 };
 
-export const CONTRACT_ADDRESS = 'YRqLJo4EnGmJqa2chSnr4C1NGnNor15rAUYVSm4KLyAUUbp';
+export const CONTRACT_ADDRESS = 'YUs21Y2AuFyquQ1aBzMpZ2kybdfF7bUUd9y9sVdmwaxLz2Q';
 
 export const astarFacts: string[] = [
   `Welcome to magink!, where the enchanting fusion of magic and <a href="https://use.ink/" target="_blank">ink!</a> awaits. Embark on an exciting journey into the world of smart contracts on the Astar Network. Earn badges for completing each lesson, showcasing your progress. And as the ultimate reward, claim your exclusive Wizard NFT upon conquering all ten lessons. Let the magic unfold in magink! as we explore the realms of possibility together.`,
@@ -24,4 +24,6 @@ export const astarFacts: string[] = [
   `So, if you're itching to build amazing decentralized applications, ink! is the perfect sidekick. With its user-friendly simplicity and the raw power of Rust, you'll not only set free your creativity and craft groundbreaking solutions in no time, but you'll also unlock the possibility of a full-time career as a master of smart contract wizardry. For more information and a wealth of additional resources, dive into the enchanting world of <a href="https://github.com/AstarNetwork/aWASoMe" target="_blank">aWASoMe</a>ness.`,
 
   `CONGRATULATIONS ,You have completed Magink!. Get ready to make your mark by using the template from <a href="https://github.com/swankyhub/magink-dapp" target="_blank">magink! repo</a> to elegantly implement this NFT claiming functionality. Don't forget to claim your Wizard 🧙‍♂️ `,
+
+  `You have successfully minted a Wizard NFT checkout the <a href="https://github.com/swankyhub/magink-dapp" target="_blank">magink! repo</a> to test your skills by implementing an ink! dapp just like this one.`,
 ];
