@@ -16,7 +16,8 @@
 
 <br clear="both"/>
 
-This is an example dApp using `ink!` smart contract and `useink` React library. Implemented from the [SwankyHub Template](https://github.com/swankyhub/magink-dapp/tree/master)
+This is an example dApp using `ink!` smart contract and `useink` React library. Implemented from the [SwankyHub Template.](https://github.com/swankyhub/magink-dapp/tree/master)
+
 Collect magink! badges by learning some facts about ink! smart contract language and Astar Network.
 
 To better understand this dApp please play the [Swanky Magink! School](https://honour-d-dev.github.io/magink-dapp/) and collect all badges.
