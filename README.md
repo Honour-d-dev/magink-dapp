@@ -34,6 +34,10 @@ YUs21Y2AuFyquQ1aBzMpZ2kybdfF7bUUd9y9sVdmwaxLz2Q
 
 Its metadata can be [found here](./frontend/src/metadata.json).
 
+The Wizard-nft contract is also deployed on the Shibuya testnet at the following address:
+
+`aZSraFVKezLzQWmZ62NzMvfJWwGEW7wP67d8SfoWEuwvUqf`
+
 ## The frontend
 
 The frontend is build with [useink](https://github.com/paritytech/useink) library and uses template from [link!](https://use.ink/examples/dapps) example.
