@@ -36,7 +36,9 @@ Its metadata can be [found here](./frontend/src/metadata.json).
 
 The Wizard-nft contract is also deployed on the Shibuya testnet at the following address:
 
-`aZSraFVKezLzQWmZ62NzMvfJWwGEW7wP67d8SfoWEuwvUqf`
+```
+aZSraFVKezLzQWmZ62NzMvfJWwGEW7wP67d8SfoWEuwvUqf
+```
 
 ## The frontend
 
